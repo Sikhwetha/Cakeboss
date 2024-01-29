@@ -8,12 +8,7 @@ export default function Services() {
     <div>
       <h2 className='s-head'>What We Offer For You</h2>
       <div className='s-list'>
-        <span className='ore'>All</span>
-        <span>Breads</span>
-        <span>Cakes</span>
-        <span>Cookies</span>
-        <span>Pastries</span>
-        <span>Muffins</span>
+        
       </div>
 
         <div class="product">
