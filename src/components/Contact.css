@@ -1,0 +1,40 @@
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px 0;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }

@@ -1,0 +1,101 @@
+/* Service.css */
+.service-page {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.service-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-item:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .service-item {
+    width: 100%;
+  }
+}
+
+
+/* Blog.css */
+.blog-page {
+ 
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: orange;
+}
+
+p {
+  line-height: 1.6;
+  color: #34495e; /* Dark Blue */
+}
+
+.date {
+  color: #95a5a6; /* Grayish Blue */
+  margin-bottom: 10px;
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 2px solid Gray;
+  border-radius: 8px;
+  background-color: #ecf0f1; 
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.blog-post p {
+  flex-grow: 1;
+}
+
+.blog-post > * {
+  margin-bottom: 10px; /* Add vertical margin between each child element */
+}
+
+.blog-post:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(231, 76, 60, 0.4); /* Light Red shadow on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .blog-post {
+    width: 100%;
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .blog-post h2 {
+    font-size: 1.2em; /* Reduce font size for smaller screens */
+  }
+}
